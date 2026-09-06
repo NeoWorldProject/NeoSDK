@@ -2,7 +2,7 @@
 
 Geometry Tools for Agentic Reconstruction
 
-[Project page & demos](https://neoworldproject.github.io/Page/) · [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) · [English](#english) · [中文](#中文)
+[Project page & demos](https://neoworldproject.github.io/Studio/) · [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) · [English](#english) · [中文](#中文)
 
 ## English
 
