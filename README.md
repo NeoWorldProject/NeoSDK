@@ -1,29 +1,42 @@
-# NeoSDK
+<h1 align="center">NeoSDK</h1>
 
-Geometry Tools for Agentic Reconstruction
+<p align="center"><strong>Geometry Tools for Agentic Reconstruction</strong></p>
 
-[Project page & demos](https://neoworldproject.github.io/Studio/) · [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) · [English](#english) · [中文](#中文)
+<p align="center">
+  <a href="https://neoworldproject.github.io/Studio/"><img src="assets/project-page.svg" alt="Project page and demos"></a>
+  <a href="https://github.com/NeoWorldProject/NeoWorldStudio"><img src="assets/studio.svg" alt="NeoWorld Studio project"></a>
+  <img src="assets/code-soon.svg" alt="Code: coming soon">
+</p>
 
-## English
+<p align="center"><strong>English</strong> · <a href="README_zh-CN.md">简体中文</a></p>
+
+> **Research preview.** This repository currently contains the toolkit introduction. NeoSDK code is planned for progressive release from **late September 2026**.
+
+## Overview
 
 NeoSDK is a geometry construction and optimization toolkit for agentic reconstruction. It provides tools for building editable 3D geometry and refining it from visual feedback.
 
-In [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio), an agent begins with an initial object reconstruction, compares rendered views with the observations, and calls NeoSDK's geometry tools to refine its shape and structure. NeoSDK supplies the geometry operations within this iterative workflow.
+### Build editable geometry
 
-### Availability
+Geometry construction tools provide an editable starting point for 3D reconstruction.
 
-This repository is public and currently provides a README preview. We plan to progressively release NeoSDK code starting in late September 2026.
+### Refine with visual feedback
 
-Visit [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) for the reconstruction project and release updates for **MATRIX-Preview**, its pretrained vision-language model for scene reconstruction.
+An agent compares rendered views with the observations and calls geometry optimization tools to refine shape and structure.
 
-## 中文
+### Work within NeoWorld Studio
 
-NeoSDK 是面向智能体重建流程的几何构建与优化工具集，提供构建可编辑三维几何、并根据视觉反馈持续优化的工具。
+[NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) connects initial object reconstruction, scene assembly, and refinement. NeoSDK supplies the geometry operations within this iterative workflow.
 
-在 [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) 中，智能体从物体的初始重建出发，对照渲染视图与原始观测，调用 NeoSDK 的几何工具，逐步优化物体的形状与结构。NeoSDK 为这一迭代流程提供几何操作能力。
+## Release Roadmap
 
-### 开放计划
+- [x] Toolkit introduction and project links
+- [ ] NeoSDK code, progressively from late September 2026
 
-本仓库现已公开，目前主要提供 README 项目预览。我们计划从 2026 年 9 月底开始，陆续开放 NeoSDK 代码。
+## Related Project
 
-完整重建项目及其用于场景重建的预训练视觉语言模型 **MATRIX-Preview** 的开放动态，请关注 [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio)。
+Visit [**NeoWorld Studio**](https://github.com/NeoWorldProject/NeoWorldStudio) for [scene demonstrations](https://neoworldproject.github.io/Studio/#demos) and release updates for **MATRIX-Preview**, its pretrained vision-language model for scene reconstruction.
+
+---
+
+<p align="center"><a href="https://neoworldproject.github.io/Studio/">Project page</a> · <a href="https://github.com/NeoWorldProject/NeoWorldStudio">NeoWorld Studio</a> · <a href="README_zh-CN.md">简体中文</a></p>
