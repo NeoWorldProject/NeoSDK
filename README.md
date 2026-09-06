@@ -35,6 +35,8 @@ An agent compares rendered views with the observations and calls geometry optimi
 
 ## Related Project
 
+**App Store: coming soon.** An app for NeoWorld Studio is planned; its release date has not been announced.
+
 Visit [**NeoWorld Studio**](https://github.com/NeoWorldProject/NeoWorldStudio) for [scene demonstrations](https://neoworldproject.github.io/Studio/#demos) and release updates for **MATRIX-Preview**, its pretrained vision-language model for scene reconstruction.
 
 ---

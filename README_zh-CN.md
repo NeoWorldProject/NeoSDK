@@ -35,6 +35,8 @@ NeoSDK 是面向智能体重建流程的几何构建与优化工具集，提供�
 
 ## 相关项目
 
+**App Store：即将发布。** NeoWorld Studio 计划推出应用，上架时间待定。
+
 完整重建项目、[场景演示](https://neoworldproject.github.io/Studio/#demos)，以及用于场景重建的预训练视觉语言模型 **MATRIX-Preview** 的开放动态，请关注 [**NeoWorld Studio**](https://github.com/NeoWorldProject/NeoWorldStudio)。
 
 ---
