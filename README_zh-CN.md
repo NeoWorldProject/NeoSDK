@@ -1,6 +1,6 @@
 <h1 align="center">NeoSDK</h1>
 
-<p align="center"><strong>面向智能体重建流程的几何工具集</strong></p>
+<p align="center"><strong>面向白盒重建的显式几何工具集</strong></p>
 
 <p align="center">
   <a href="https://neoworldproject.github.io/Studio/"><img src="assets/project-page.svg" alt="项目主页与演示"></a>
@@ -14,7 +14,7 @@
 
 ## 核心思路
 
-NeoSDK 是面向智能体重建流程的几何构建与优化工具集，提供构建可编辑三维几何、并根据视觉反馈持续优化的工具。
+NeoSDK 是面向**白盒重建**的几何构建与优化工具集，通过显式、可检查的操作构建可编辑三维几何，并根据视觉反馈持续优化，不依赖预训练的 3D 生成模型。
 
 ### 构建可编辑几何
 
@@ -27,6 +27,12 @@ NeoSDK 是面向智能体重建流程的几何构建与优化工具集，提供�
 ### 服务于 NeoWorld Studio
 
 [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) 将物体初始重建、场景装配和迭代优化连接起来，NeoSDK 为这一流程提供几何操作能力。
+
+### 构建与检查水密实体
+
+NeoSDK 提供实体构建与适配工具，用于生成 watertight 的物理几何。该能力面向适用零件和经验证的实体结果，不代表任意视觉网格都自动具备水密性。
+
+在 Studio 中，显式零件结构也支持配置关节运动与逐零件物理参数。**Physics-in-the-loop 优化及可交互、simulation-ready 场景**是基于这些能力继续推进的研究方向。
 
 ## 开放计划
 

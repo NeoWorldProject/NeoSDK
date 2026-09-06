@@ -1,6 +1,6 @@
 <h1 align="center">NeoSDK</h1>
 
-<p align="center"><strong>Geometry Tools for Agentic Reconstruction</strong></p>
+<p align="center"><strong>Explicit Geometry Tools for White-Box Reconstruction</strong></p>
 
 <p align="center">
   <a href="https://neoworldproject.github.io/Studio/"><img src="assets/project-page.svg" alt="Project page and demos"></a>
@@ -14,7 +14,7 @@
 
 ## Overview
 
-NeoSDK is a geometry construction and optimization toolkit for agentic reconstruction. It provides tools for building editable 3D geometry and refining it from visual feedback.
+NeoSDK is a geometry construction and optimization toolkit for **white-box reconstruction**. It provides explicit, inspectable operations for building editable 3D geometry and refining it from visual feedback, without relying on pretrained 3D generation models.
 
 ### Build editable geometry
 
@@ -27,6 +27,12 @@ An agent compares rendered views with the observations and calls geometry optimi
 ### Work within NeoWorld Studio
 
 [NeoWorld Studio](https://github.com/NeoWorldProject/NeoWorldStudio) connects initial object reconstruction, scene assembly, and refinement. NeoSDK supplies the geometry operations within this iterative workflow.
+
+### Construct and inspect watertight solids
+
+NeoSDK provides solid construction and adaptation tools for watertight physical geometry. This capability applies to suitable parts and validated solid outputs; it is not an automatic property of every visual mesh.
+
+Within Studio, explicit part structure also supports configurable articulation and per-part physical parameters. **Physics-in-the-loop refinement and interactive, simulation-ready scenes** are the research direction being built on this foundation.
 
 ## Release Roadmap
 
